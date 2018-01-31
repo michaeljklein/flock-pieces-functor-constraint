@@ -9,7 +9,7 @@
 render_graph.sh
 ```
 
-![dependency_graph.jpg](https://github.com/michaeljklein/flock-pieces-through/raw/master/dependency_graph.jpg "graphmod dependency graph; see dependency_graph.dot, render_graph.sh")
+![dependency_graph.jpg](./dependency_graph.jpg "graphmod dependency graph; see dependency_graph.dot, render_graph.sh")
 
 
 ## Tree
