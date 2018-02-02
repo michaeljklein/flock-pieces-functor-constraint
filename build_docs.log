@@ -1,0 +1,59 @@
+I, [2018-02-02T14:53:20.535536 #92633]  INFO -- : Stack log:
+I, [2018-02-02T14:53:20.535983 #92633]  INFO -- : Building all executables for `flock-pieces-functor-constraint' once. After a successful build of all of them, only specified executables will be rebuilt.
+flock-pieces-functor-constraint-0.1.0.0: configure (lib + exe)
+Configuring flock-pieces-functor-constraint-0.1.0.0...
+flock-pieces-functor-constraint-0.1.0.0: build (lib + exe)
+Preprocessing library flock-pieces-functor-constraint-0.1.0.0...
+[1 of 4] Compiling Data.Functor.Constraint.Wrap ( src/Data/Functor/Constraint/Wrap.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Data/Functor/Constraint/Wrap.o )
+[2 of 4] Compiling Data.Functor.Constraint.Jop ( src/Data/Functor/Constraint/Jop.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Data/Functor/Constraint/Jop.o )
+[3 of 4] Compiling Data.Functor.Constraint.Const ( src/Data/Functor/Constraint/Const.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Data/Functor/Constraint/Const.o )
+[4 of 4] Compiling Data.Functor.Constraint ( src/Data/Functor/Constraint.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Data/Functor/Constraint.o )
+Preprocessing executable 'flock-pieces-functor-constraint-exe' for
+flock-pieces-functor-constraint-0.1.0.0...
+[1 of 1] Compiling Main             ( app/Main.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/flock-pieces-functor-constraint-exe/flock-pieces-functor-constraint-exe-tmp/Main.o )
+Linking .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/flock-pieces-functor-constraint-exe/flock-pieces-functor-constraint-exe ...
+flock-pieces-functor-constraint-0.1.0.0: haddock
+Running Haddock for flock-pieces-functor-constraint-0.1.0.0...
+Preprocessing library flock-pieces-functor-constraint-0.1.0.0...
+Haddock coverage:
+  62% (  5 /  8) in 'Data.Functor.Constraint.Wrap'
+  Missing documentation for:
+    Module header
+     (src/Data/Functor/Constraint/Wrap.hs:14)
+     (src/Data/Functor/Constraint/Wrap.hs:32)
+  44% (  4 /  9) in 'Data.Functor.Constraint.Jop'
+  Missing documentation for:
+    Module header
+     (src/Data/Functor/Constraint/Jop.hs:7)
+     (src/Data/Functor/Constraint/Jop.hs:10)
+     (src/Data/Functor/Constraint/Jop.hs:13)
+     (src/Data/Functor/Constraint/Jop.hs:17)
+  83% (  5 /  6) in 'Data.Functor.Constraint.Const'
+  Missing documentation for:
+    Module header
+  91% ( 10 / 11) in 'Data.Functor.Constraint'
+  Missing documentation for:
+    Module header
+Documentation created:
+.stack-work/dist/x86_64-osx/Cabal-1.24.2.0/doc/html/flock-pieces-functor-constraint/index.html,
+.stack-work/dist/x86_64-osx/Cabal-1.24.2.0/doc/html/flock-pieces-functor-constraint/flock-pieces-functor-constraint.txt
+Preprocessing executable 'flock-pieces-functor-constraint-exe' for
+flock-pieces-functor-constraint-0.1.0.0...
+Preprocessing test suite 'flock-pieces-functor-constraint-test' for
+flock-pieces-functor-constraint-0.1.0.0...
+flock-pieces-functor-constraint-0.1.0.0: copy/register
+Installing library in
+/Users/michaelklein/Desktop/flock/pieces/functor-constraint/.stack-work/install/x86_64-osx/lts-9.1/8.0.2/lib/x86_64-osx-ghc-8.0.2/flock-pieces-functor-constraint-0.1.0.0-7F8s7UVCIqT4pmKctfYtX1
+Installing executable(s) in
+/Users/michaelklein/Desktop/flock/pieces/functor-constraint/.stack-work/install/x86_64-osx/lts-9.1/8.0.2/bin
+Registering flock-pieces-functor-constraint-0.1.0.0...
+Updating Haddock index for local packages in
+/Users/michaelklein/Desktop/flock/pieces/functor-constraint/.stack-work/install/x86_64-osx/lts-9.1/8.0.2/doc/index.html
+Updating Haddock index for local packages and dependencies in
+/Users/michaelklein/Desktop/flock/pieces/functor-constraint/.stack-work/install/x86_64-osx/lts-9.1/8.0.2/doc/all/index.html
+Haddock index for snapshot packages already up to date at:
+/Users/michaelklein/.stack/snapshots/x86_64-osx/lts-9.1/8.0.2/doc/index.html
+
+I, [2018-02-02T14:53:20.536000 #92633]  INFO -- : nil
+I, [2018-02-02T14:53:20.536088 #92633]  INFO -- : built_docs_dir: /Users/michaelklein/Desktop/flock/pieces/functor-constraint/.stack-work/install/x86_64-osx/lts-9.1/8.0.2/doc
+I, [2018-02-02T14:56:44.905798 #92633]  INFO -- : Docs copied to doc/
