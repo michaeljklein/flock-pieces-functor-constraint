@@ -46,3 +46,7 @@ ff7f22a2d2704bf86d3be1a1af2679ba13c067c4
 ```
 
 
+# Docs
+
+Haddock-generated documentation is available [here](https://michaeljklein.github.io/flock-pieces-functor-constraint/doc/index.html)
+
